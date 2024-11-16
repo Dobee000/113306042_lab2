@@ -3,18 +3,22 @@
     background-color: #357ae8; 
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0; 
 }
 
 .header h1 {
-    font-weight: bold;
+    margin: 0 0 20px 0; 
+}
+
+.header p {
+    margin: 0 0 80px 0; 
 }
 
 /* Navbar Section */
 .navbar {
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
     padding: 10px 0;
 }
 
@@ -89,4 +93,3 @@
     text-decoration: none;
     font-weight: normal;
 }
-3
