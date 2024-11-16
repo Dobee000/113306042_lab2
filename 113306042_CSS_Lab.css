@@ -1,0 +1,92 @@
+/* Header Section */
+.header {
+    background-color: #357ae8; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%; 
+    justify-content: space-around; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal; 
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Hover Styles */
+.navbar a:hover {
+    color: #79a8ff; 
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    background-color: #333;
+    padding: 10px 0;
+    list-style-type: none;
+    margin: 0;
+    min-width: 220px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: left; 
+    visibility: hidden; 
+}
+
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    color: #79a8ff; 
+}
+
+/* 顯示下拉選單僅在滑鼠移到 Services 上時 */
+.dropdown:hover .dropdown-menu {
+    display: block; 
+    visibility: visible; 
+}
+
+/* Main Content */
+.content {
+    text-align: left; 
+    margin: 20px; 
+}
+
+.content a {
+    color: black; 
+    text-decoration: none;
+    font-weight: normal;
+}
+3
